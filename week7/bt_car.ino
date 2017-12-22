@@ -45,12 +45,12 @@ void Right_Backward(int power){
 // power 的數值可以依照實驗中實際情況自由調整
 // 參考第六週課程講義
 
-// 車體向左轉
+// 車體逆時針轉
 void Move_Left() {
     Right_Forward(127);
     Left_Backward(127);
 }
-// 車體向右轉
+// 車體順時針轉
 void Move_Right() {
     Left_Forward(127);
     Right_Backward(127);
@@ -60,7 +60,7 @@ void Move_Forward() {
     Left_Forward(127);
     Right_Forward(127);
 }
-// 車體向左轉
+// 車體向後退
 void Move_Backward() {
     Left_Backward(127);
     Right_Backward(127);
